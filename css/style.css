@@ -1,0 +1,183 @@
+
+body {
+    background-color: #b1f0d8;
+    height: 100%;
+}
+
+.bg-img{
+    background-image: url(../img/grafikk-web-bg.jpg);
+
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #b1f0d8;
+        }
+
+.footer-ul {
+margin: 0px;
+}
+
+.nav{
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 0px 48px 0px 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+ }
+
+li a {
+    color: #d35284;
+}
+
+a:hover{
+    color: #041ac1;
+}
+
+ .logo {
+    padding: 6px 48px 0px 0px;
+    margin: 20px 0px -60px 0px;
+ }
+ .bottom-line {
+     height: 16px;
+     background-color: white;
+     border-radius: 5px;
+ }
+
+ .headerban {
+     display: flex;
+     margin: 0 auto;
+     width: 54%;
+ }
+
+ .row {
+     flex-direction: row;
+ }
+
+ .column{
+     flex-direction: column;
+ }
+ .product{
+    width: 260px;
+    margin-left: 156px;
+    margin-top: 96px;
+    margin-bottom: 106px;
+ }
+
+ .h1-text {
+    font-family: 'Fredoka One', cursive;
+     font-size: 6rem;
+     margin: 0px;
+     font-weight: lighter;
+     color: rgb(245, 245, 245);
+     margin-top: 46px;
+     margin-left: -20px;
+ }
+
+ .h2-text {
+     font-size: 4rem;
+     margin-bottom: 6px;
+     margin-top: -14px;
+     margin-left: 32px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(245, 245, 245);
+ }
+
+ .btn-buy {
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 64px;
+    border-radius: 10px;
+    background-color: #041ac1;
+    border-color: #041ac1;
+    color: rgb(245, 245, 245);
+ }
+
+ .btn-info {
+     padding: 16px;
+     font-size: 16px;
+     font-weight: 600;
+     border-radius: 10px;
+     background-color: #b1f0d8;
+     color: #d35284;
+     border-color: #b1f0d8;
+ }
+
+ .btn-info:hover{
+     color: #a5466a;
+ }
+
+ .btn-info:hover{
+     background-color: #b1f0d8; }
+
+ .top {
+     margin-top: 300px;
+ }
+
+ .footer {
+     background-color: #d35284;
+     height: 100px;
+     margin-left: 15%;
+     margin-right: 15%;
+     width: 1772px;
+     
+ }
+
+ .fo-nav{
+     color: #b1f0d8;
+     text-decoration: none;
+ }
+
+ul.footer-ul{
+    display: block;
+    width: 430px;
+    margin: 16px auto;
+}
+
+.btn-buy:hover{
+    background-color: #b1f0d8;
+    color: #d35284;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+  }
+
+  .footer,
+  .push {
+    height: 50px;
+  }
+
+ @media only screen and (max-width: 768px) {
+   
+    .headerban {
+        display: flex;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .product {
+        width: 100px;
+    }
+  }
+
+  @media only screen and (min-width: 1828px){
+    .headerban {
+        display: flex;
+        margin: 0 auto;
+        width: 60%;
+    }
+  }
+  
+
+  
